@@ -1,8 +1,26 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Instalar dependencias
 
-First, run the development server:
+Realizar el siguiente comando desde consola:
+
+```bash
+npm install
+```
+
+## Migrar la base de datos
+
+Realizar el siguiente comando desde consola:
+
+```bash
+npx prisma migrate dev --name init
+```
+
+En caso de no funcionar se pueden ejecutar los scripts sql dentro de la carpeta prisma/migrations
+
+## Ejecutar el proyecto
+
+Realizar el siguiente comando desde consola:
 
 ```bash
 npm run dev
